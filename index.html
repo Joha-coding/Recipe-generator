@@ -8,11 +8,59 @@
   </head>
   <body>
     <div class="container">
-      <h1>What can I cook?</h1>
+      <div class="site-name">
+        <h1 class="title">What can I cook?</h1>
+        <div class="subtitle">AI-POWERED RECIPE GENERATOR</div>
+      </div>
+
       <p>
         This recipe generator suggests recipes based on the ingredients you have
-        available, your preferences or dietary restrictions.
+        available, <br />
+        your preferences or dietary restrictions.
       </p>
+      <form action="">
+        <input
+          type="text"
+          placeholder="Enter your ingredients"
+          autofocus
+          required
+          autocomplete="off"
+        />
+        <input type="submit" value="Inspire me!" />
+      </form>
+
+      <div class="recipe" id="recipe">here will appear the recipe</div>
+
+      <footer>
+        This website was coded by
+        <a
+          href="https://github.com/Joha-coding"
+          target="_blank"
+          class="footer-link"
+          >Joha.</a
+        >
+        <div>
+          Open sourced on
+          <a
+            href="https://github.com/Joha-coding/Recipe-generator"
+            target="_blank"
+            class="footer-link"
+            >Github</a
+          >
+          and hosted on
+          <a
+            href="https://what-can-i-cook.netlify.app/"
+            target="_blank"
+            class="footer-link"
+            >Netlify</a
+          >.
+        </div>
+        <img
+          src="/img/Garlic_Branding.png"
+          alt="Garlic_Branding"
+          width="45px"
+        />
+      </footer>
 
       <script src="src/index.js"></script>
     </div>

@@ -1,3 +1,51 @@
 body {
-  background-color: orange;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/107/680/original/fruitsandveggies.jpg?1702912283");
+  background-size: cover;
+}
+
+p {
+  text-align: center;
+  font-style: italic;
+}
+
+footer {
+  text-align: center;
+  border-top: rgba(197, 12, 102, 0.2) solid;
+  padding: 10px;
+  margin: 35px;
+  color: rgba(197, 12, 102, 1);
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.7);
+  max-width: 100%;
+  box-shadow: 26px 26px 42px #868686, -26px -26px 42px #ffffff;
+  border-radius: 45px;
+}
+
+.site-name {
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 40px;
+  color: #f07810;
+  padding: 0px;
+  margin-bottom: 0;
+}
+
+.subtitle {
+  color: rgba(197, 12, 102, 1);
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.recipe {
+}
+.footer-link {
+  color: #f07810;
+  text-decoration: none;
+  font-weight: bold;
 }
