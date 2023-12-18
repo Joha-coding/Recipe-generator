@@ -4,12 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap"
+      rel="stylesheet"
+    />
     <title>What can I cook?</title>
   </head>
   <body>
     <div class="container">
       <div class="site-name">
-        <h1 class="title">What can I cook?</h1>
+        <h1 class="title">WHAT CAN I COOK?</h1>
         <div class="subtitle">AI-POWERED RECIPE GENERATOR</div>
       </div>
 
@@ -20,16 +26,17 @@
       </p>
       <form action="">
         <input
+          class="instructions"
           type="text"
           placeholder="Enter your ingredients"
           autofocus
           required
           autocomplete="off"
         />
-        <input type="submit" value="Inspire me!" />
+        <input type="submit" value="Inspire me!" class="inspire-me" />
       </form>
 
-      <div class="recipe" id="recipe">here will appear the recipe</div>
+      <div class="recipe" id="recipe">The recipe will appear here</div>
 
       <footer>
         This website was coded by

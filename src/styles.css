@@ -6,6 +6,35 @@ body {
 p {
   text-align: center;
   font-style: italic;
+  font-size: 16px;
+  border-bottom: rgba(197, 12, 102, 0.2) solid;
+  padding: 10px;
+  margin: 35px;
+}
+
+form {
+  margin: 0 auto;
+  padding: 15px;
+  display: block;
+}
+
+input {
+  border: none;
+  padding: 1rem;
+  border-radius: 1rem;
+  background: #e8e8e8;
+  box-shadow: inset 20px 20px 60px rgba(240, 120, 16, 0.4),
+    inset -20px -20px 60px #ffffff;
+  transition: 0.3s;
+  margin-top: 0 auto;
+}
+
+input:focus {
+  outline-color: #e8e8e8;
+  background: #e8e8e8;
+  box-shadow: inset 20px 20px 60px rgba(197, 12, 102, 0.4),
+    inset -20px -20px 60px #ffffff;
+  transition: 0.3s;
 }
 
 footer {
@@ -14,6 +43,7 @@ footer {
   padding: 10px;
   margin: 35px;
   color: rgba(197, 12, 102, 1);
+  font-size: 15px;
 }
 
 .container {
@@ -21,6 +51,8 @@ footer {
   max-width: 100%;
   box-shadow: 26px 26px 42px #868686, -26px -26px 42px #ffffff;
   border-radius: 45px;
+  margin: 120px 60px;
+  padding: 15px;
 }
 
 .site-name {
@@ -31,21 +63,50 @@ footer {
 
 .title {
   font-size: 40px;
+  font-family: Rubik Doodle Shadow;
   color: #f07810;
   padding: 0px;
   margin-bottom: 0;
+  text-shadow: 1px 0 10px;
 }
 
 .subtitle {
   color: rgba(197, 12, 102, 1);
-  font-size: 17px;
+  text-align: center;
+  word-spacing: 5px;
+  letter-spacing: 4.2px;
+  font-size: 15px;
   font-weight: bold;
+  line-height: 10px;
+  border-radius: 50px;
+  text-shadow: 1px 0 10px;
+}
+
+.instructions {
+  padding: 16px;
+  width: 60%;
+  margin-left: 30px;
+  display: inline-block;
+}
+
+.inspire-me {
+  width: 20%;
 }
 
 .recipe {
+  font-size: 15px;
+  padding: 30px;
+  margin: 30px 30px;
+  line-height: 1.5;
+  border-radius: 1rem;
+  background: #e8e8e8;
+  box-shadow: inset 20px 20px 60px rgba(197, 12, 102, 0.4),
+    inset -20px -20px 60px #ffffff;
 }
+
 .footer-link {
   color: #f07810;
   text-decoration: none;
   font-weight: bold;
+  text-shadow: 1px 0 10px;
 }
