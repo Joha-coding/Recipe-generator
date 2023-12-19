@@ -26,20 +26,23 @@
         available, <br />
         your preferences or dietary restrictions.
       </p>
-      <form id="recipe-generator-form">
-        <input
-          class="instructions"
-          id="user-instructions"
-          type="text"
-          placeholder="Enter your ingredients"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" value="Inspire me!" class="inspire-me" />
-      </form>
+      <div class="form-wrapper">
+        <form id="recipe-generator-form">
+          <input
+            class="instructions"
+            id="user-instructions"
+            type="text"
+            placeholder="Enter your ingredients"
+            autofocus
+            required
+            autocomplete="off"
+          />
+          <input type="submit" value="Inspire me!" class="inspire-me" />
+        </form>
+      </div>
+      <div class="hint">i.e : cheese, corn, vegetarian</div>
 
-      <div class="recipe" id="recipe"></div>
+      <div class="recipe hidden" id="recipe"></div>
 
       <footer>
         This website was coded by

@@ -13,9 +13,7 @@ p {
 }
 
 form {
-  margin: 0 auto;
-  padding: 15px;
-  display: block;
+  display: flex;
 }
 
 input {
@@ -48,6 +46,7 @@ footer {
 .container {
   background-color: rgba(255, 255, 255, 0.7);
   max-width: 100%;
+  min-width: fit-content;
   box-shadow: 26px 26px 42px #868686, -26px -26px 42px #ffffff;
   border-radius: 45px;
   margin: 120px 60px;
@@ -81,15 +80,33 @@ footer {
   text-shadow: 1px 0 10px;
 }
 
+.form-wrapper {
+  margin: auto;
+  padding: 0px;
+  min-width: auto;
+  max-width: fit-content;
+  align-items: center;
+}
+
 .instructions {
   padding: 16px;
-  width: 60%;
+  width: 55%;
   min-width: 300px;
 }
 
 .inspire-me {
   max-width: 20%;
   min-width: fit-content;
+  margin-left: 5px;
+}
+
+.hint {
+  line-height: 1.5;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-left: 15px;
+  opacity: 0.6;
+  text-align: left;
 }
 
 .recipe {
@@ -101,6 +118,26 @@ footer {
   background: #e8e8e8;
   box-shadow: inset 20px 20px 60px rgba(197, 12, 102, 0.4),
     inset -20px -20px 60px #ffffff;
+}
+
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+.hidden {
+  display: none;
 }
 
 .footer-link {
